@@ -12,3 +12,7 @@ PyTorch达到目前深度学习框架的最高水平。当前开源的框架中�
 * PyTorch是所有的框架中面向对象设计的最优雅的一个。PyTorch的面向对象的接口设计来源于Torch，而Torch的接口设计以灵活易用而著称，Keras作者最初就是受Torch的启发才开发了Keras。PyTorch继承了Torch的衣钵，尤其是API的设计和模块的接口都与Torch高度一致。PyTorch的设计最符合人们的思维，它让用户尽可能地专注于实现自己的想法，即所思即所得，不需要考虑太多关于框架本身的束缚。
 * PyTorch提供了完整的文档，循序渐进的指南，作者亲自维护的论坛 供用户交流和求教问题。Facebook 人工智能研究院对PyTorch提供了强力支持，作为当今排名前三的深度学习研究机构，FAIR的支持足以确保PyTorch获得持续的开发更新，不至于像许多由个人开发的框架那样昙花一现。
 
+# pytorch 安装：
+py35/cuda9.0/pip安装
+* pip3 install https://download.pytorch.org/whl/cu90/torch-1.1.0-cp35-cp35m-win_amd64.whl
+* pip3 install torchvision
