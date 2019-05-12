@@ -34,3 +34,9 @@ Tensors 类似于 NumPy 的 ndarrays ，同时  Tensors 可以使用 GPU 进行�
 </div>
 </div>
 </div>
+
+构造一个5x3矩阵，不初始化。
+<div class="highlight-python notranslate">
+<div class="highlight">
+<pre><span class="kn">x</span> <span class="nn">=</span> <span class="kn">touch.empty(5,3)</span>
+<span class="kn">print(x)</span></pre>
