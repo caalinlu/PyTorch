@@ -20,37 +20,6 @@ py35/cuda9.0/pip安装
 # 配置Python环境：
 环境：Python 3.5.6
 
-# PyTorch基础概念
+# PyTorch基础概念（基本操作）
 
-<h3>Tensor(张量)</h3>
-
-
-Tensors 类似于 NumPy 的 ndarrays ，同时  Tensors 可以使用 GPU 进行计算。
-<div class="highlight-python notranslate">
-<div class="highlight">
-<pre><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
-<span class="kn">import</span> <span class="nn">torch</span></pre>
-</div>
-</div>
-</div>
-</div>
-
-构造一个5x3矩阵，不初始化。
-<div class="highlight-python notranslate">
-<div class="highlight">
-<pre><span class="kn">x</span> <span class="nn">=</span> <span class="kn">touch.empty(5,3)</span>
-<span class="kn">print(x)</span></pre>
-
-输出:
-
-<div class="highlight-python notranslate">
-<div class="highlight">
-  <pre><span class="n">tensor</span><span class="p">(</span><span class="mf">1.00000e-04</span> <span class="o">*</span>
-       <span class="p">[[</span><span class="o">-</span><span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">1.5135</span><span class="p">],</span>
-        <span class="p">[</span> <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">],</span>
-        <span class="p">[</span> <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">],</span>
-        <span class="p">[</span> <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">],</span>
-        <span class="p">[</span> <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">]])</span></pre>
-</div>
-</div>
- 
+见 PyTorch基本操作学习.ipynb
