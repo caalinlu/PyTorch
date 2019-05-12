@@ -21,3 +21,16 @@ py35/cuda9.0/pip安装
 环境：Python 3.5.6
 
 # PyTorch基础概念
+
+* 张量Tensor
+
+
+Tensors 类似于 NumPy 的 ndarrays ，同时  Tensors 可以使用 GPU 进行计算。
+<div class="highlight-python notranslate">
+<div class="highlight">
+<pre><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
+<span class="kn">import</span> <span class="nn">torch</span></pre>
+</div>
+</div>
+</div>
+</div>
