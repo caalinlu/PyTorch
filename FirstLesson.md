@@ -22,7 +22,7 @@ py35/cuda9.0/pip安装
 
 # PyTorch基础概念
 
-* 张量Tensor
+<h3>张量Tensor</h3>
 
 
 Tensors 类似于 NumPy 的 ndarrays ，同时  Tensors 可以使用 GPU 进行计算。
