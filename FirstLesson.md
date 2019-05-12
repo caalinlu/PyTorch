@@ -40,3 +40,17 @@ Tensors 类似于 NumPy 的 ndarrays ，同时  Tensors 可以使用 GPU 进行�
 <div class="highlight">
 <pre><span class="kn">x</span> <span class="nn">=</span> <span class="kn">touch.empty(5,3)</span>
 <span class="kn">print(x)</span></pre>
+
+输出:
+
+<div class="highlight-python notranslate">
+<div class="highlight">
+  <pre><span class="n">tensor</span><span class="p">(</span><span class="mf">1.00000e-04</span> <span class="o">*</span>
+       <span class="p">[[</span><span class="o">-</span><span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">1.5135</span><span class="p">],</span>
+        <span class="p">[</span> <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">],</span>
+        <span class="p">[</span> <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">],</span>
+        <span class="p">[</span> <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">],</span>
+        <span class="p">[</span> <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">,</span>  <span class="mf">0.0000</span><span class="p">]])</span></pre>
+</div>
+</div>
+ 
